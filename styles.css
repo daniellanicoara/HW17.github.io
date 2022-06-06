@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(247, 225, 225);
+    margin: 0;
+  }
+  
+  /* webpage content below header and footer */
+  article {
+    width: 800px;
+    margin: 0px auto;
+  }
+  
+  /* Large font (greeting) */
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  
+  /* Paragraphs (everything in small font) */
+  p {
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  /* Images */
+  .logo-img {
+    height: 50px;
+    display: block;
+    float: left;
+    margin: 20px;
+  }
+  
+  .photo-img {
+    display: block;
+    width: 200px;
+    margin: 0px;
+  }
+  
+  /* navigation bars (header/footer) */
+  .navigation-header {
+    background-color: #373738;
+    text-align: end;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: #000;
+    border-style: solid;
+    float: left;
+    width: 100%;
+  }
+  
+  /* position:fixed and bottom:0 */
+  .navigation-footer {
+    background-color: #373738;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-top-color: #000;
+    border-style: solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navigation-header nav {
+    float: right;
+    margin-top: 30px;
+  }
+  
+  .navigation-header nav li,
+  .navigation-footer li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* Navigation links */
+  .nav-link-list {
+    padding-inline-start: 0px;
+  }
+  
+  a.navigation-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+  }
+  
+  a.navigation-link:link,
+  a.navigation-link:visited {
+    color: white;
+  }
+  
+  a.navigation-link:active,
+  a.navigation-link:hover {
+    color: #777;
+  }
+  
+  /* Greeting text */
+  .greeting-block {
+    float: left;
+    width: 60%;
+    margin-top: 200px;
+    min-width: 100px;
+  }
+  
+  /* block with a photo and the profile */
+  .photo-block {
+    float: left;
+    width: 200px;
+    margin-top: 100px;
+  }
+  
+  /* Social media profiles */
+  .photo-block ul {
+    padding: 10px 0px 10px 0px;
+    font-size: 0;
+  }
+  
+  .profiles-list {
+    padding-inline-start: 0px;
+    list-style: none;
+    background-color: rgb(245, 156, 156);
+    margin: 0;
+  }
+  
+  .profiles-list li {
+    display: inline-block;
+    width: 40px;
+    margin: 0px 5px 0px 5px;
+    font-size: medium;
+  }
+  
+  .fa {
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+  }
+  
